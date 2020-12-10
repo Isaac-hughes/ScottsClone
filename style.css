@@ -1,0 +1,95 @@
+body {
+    width: 100vw;
+    background-color: rgb(37,37,37);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(37,37,37);
+}
+.leftSide{
+    display: flex;
+    padding: 0px 0px 0px 15px;
+}
+.rightSide{
+    display: flex;
+    padding: 0px 15px 0px 0px;
+}
+
+nav {
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(63, 151, 180);
+}
+.notifications {
+    width: 100vw;
+    height: 100px;
+    background-color: red;
+}
+.samFender {
+    width: 100vw;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    background-color: pink;
+}
+.getGifting {
+    width: 100vw;
+    height: 100px;
+    background-color: green;
+}
+.products {
+    width: 100vw;
+    height: 100px;
+    background-color: orange;
+}
+.brands {
+    width: 100vw;
+    height: 100px;
+    background-color: violet;
+}
+.harveyJayDodgson {
+    width: 100vw;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    background-color: honeydew;
+}
+.blog {
+    width: 100vw;
+    height: 100px;
+    background-color: lavender;
+}
+.info {
+    width: 100vw;
+    height: 100px;
+    background-color: khaki;
+}
+footer {
+    width: 100vw;
+    height: 100px;
+    background-color: aqua;
+}
+
+
+/* Image settings */
+.imgFit {
+    width: 100%;
+    height: auto;
+}
+
+/* Text settings */
+.smallText {
+    text-decoration: none;
+    font-size: 11px;
+    color: rgb(114, 114, 114);
+    padding: 0px 5px 0px 5px;
+}
