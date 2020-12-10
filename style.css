@@ -15,31 +15,113 @@ header {
     justify-content: space-between;
     background-color: rgb(37,37,37);
 }
-.leftSide{
+.headLeftSide{
     display: flex;
     padding: 0px 0px 0px 15px;
 }
-.rightSide{
+.headRightSide{
     display: flex;
     padding: 0px 15px 0px 0px;
 }
 
 nav {
     width: 100vw;
-    height: 100px;
-    background-color: rgb(63, 151, 180);
+    height: auto;
+    background-color:  rgb(37,37,37);
+    display: flex;
+    flex-direction: row;
+}
+.navRightSide{
+    display: flex;
+    flex-direction: row;
+}
+.navRightSide p {
+    padding: 10px 10px 0px 10px;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+}
+.scottsLogo {
+    padding: 10px;
+    width: 80px;
+    height: 25px;
 }
 .notifications {
     width: 100vw;
-    height: 100px;
-    background-color: red;
+    height: auto;
+    background-color: rgb(35, 152, 163);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.not1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding: 0;
+    margin: 0;
+}
+.not2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 0;
+    margin: 0;
+}
+.not3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 0;
+    margin: 0;
+}
+.notifications p {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    padding: 0;
+    margin: 4px;
 }
 .samFender {
-    width: 100vw;
+    width: auto;
     height: auto;
     padding: 0;
     margin: 0;
-    background-color: pink;
+    background-color:  rgb(37,37,37);
+    position: relative;
+    
+}
+.samImg{
+    width: 100vw;
+    height: auto;
+}
+.samContent {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 30px;
+}
+.samLogoImg {
+    width: 40%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+.samContentH1 {
+    color: rgb(255, 255, 255) !important;
+    margin: 0;
+    padding: 5px;
+    font-size: 24px;
+    font-weight: 100;
+}
+.samContentH2 {
+    color: rgb(255, 255, 255) !important;
+    margin: 0;
+    padding: 0px 0px 0px 5px;
+    font-size: 18px;
+    font-weight: 50;
 }
 .getGifting {
     width: 100vw;
@@ -80,11 +162,7 @@ footer {
 }
 
 
-/* Image settings */
-.imgFit {
-    width: 100%;
-    height: auto;
-}
+
 
 /* Text settings */
 .smallText {
@@ -92,4 +170,7 @@ footer {
     font-size: 11px;
     color: rgb(114, 114, 114);
     padding: 0px 5px 0px 5px;
+}
+.yellowText {
+    color: rgb(253, 230, 56) !important;
 }
